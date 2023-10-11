@@ -28,8 +28,52 @@
  *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
  */
 
+ main {
+  background-color: #e0ff54;
+  padding: 0px;
+  margin: 0px;
+  height: 1000px;
+ }
+ main .box-container {
+  height: 920px;
+  width: 500px;
+  max-width: 80%;
+  margin:  auto;
+  background-color: #f4ffc1;
+  color: #d17300;
+  border-radius: 20px;
+  box-shadow: #315a72 0px 8px 40px;
+}
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+main .box-organs {
+  padding: 50px;
+  width: 500px;
+}
+main .this-one-bit-of-text {
+  color: black;
+  font-size: 0.8rem;
+}
+main .pricey {
+  color: rgb(222, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+}
+button {
+  color: #e0ff54;
+  background-color: rgb(222, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+main .button {
+  text-align: center;
+  padding: 25px;
+}
 html {
-  font-size: 1.0rem;
+  font-size: 1.0rem; 
 }
 
 body {
